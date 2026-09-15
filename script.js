@@ -1,0 +1,1 @@
+function scrollToFeatures(){document.getElementById('features').scrollIntoView({behavior:'smooth'})}function showMessage(){alert('Your first step starts now. Keep building. ✦')}window.addEventListener('scroll',()=>{document.querySelector('nav').style.borderBottomColor=scrollY>50?'#33333d':'#22222a'})
